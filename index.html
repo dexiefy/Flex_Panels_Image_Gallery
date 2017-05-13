@@ -25,6 +25,7 @@
       min-height:100vh;
       overflow: hidden;
       display: flex;
+/*        flex-direction: column;*/
     }
 
     .panel {
@@ -117,11 +118,11 @@
   </div>
 
   <script>
+    //stala zmienna zwracajaca liste divow z klasy panel
     const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
-      console.log('Hello');
-      this.classList.toggle('open');
+         this.classList.toggle('open');
     }
       /* dla Safari event.propertyName === flex */
       /* dla Chrome + FF event.propertyName === flex-grow */
