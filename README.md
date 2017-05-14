@@ -4,3 +4,7 @@
 - [Piotr Dzięgielewski](https://github.com/dexiefy)
 - [Wojciech Januszek](https://github.com/wojsamjan)
 
+
+
+## Brackets 
+- [Brackets.io](http://brackets.io/) -  edytor tekstu z wbudowanym live reloadem. By uruchomić Live Reload wystarczy kliknąć ikonke pioruna w prawym górnym rogu okna
