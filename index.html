@@ -24,8 +24,10 @@
     .panels {
       min-height:100vh;
       overflow: hidden;
-      display: flex;
-/*        flex-direction: column;*/
+        display: flex;
+        /*        flex-direction: column;*/
+/*        border: 3px solid red;*/
+        
     }
 
     .panel {
@@ -34,6 +36,8 @@
       color:white;
       text-align: center;
       align-items: center;
+        /*        border: 3px solid red;*/
+        
 
       transition:
         font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
@@ -46,6 +50,7 @@
       justify-content: center;
       display: flex;
       flex-direction: column;
+        
     }
 
 
@@ -64,6 +69,7 @@
       display:flex;
       justify-content: center;
       align-items: center;
+                
     }
 
     .panel > *:first-child { transform: translateY(-100%); }
@@ -76,10 +82,15 @@
       font-family: 'Amatic SC', cursive;
       text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
       font-size: 2em;
+            
     }
     .panel p:nth-child(2) {
       font-size: 4em;
-    }
+       
+       /*Lamanie wyrazow */
+                word-break: break-all;
+       
+            }
 
     .panel.open {
       flex: 5;
@@ -118,7 +129,7 @@
   </div>
 
   <script>
-    //stala zmienna zwracajaca liste divow z klasy panel
+    //stala zwracajaca liste elementow z klasy panel
     const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
